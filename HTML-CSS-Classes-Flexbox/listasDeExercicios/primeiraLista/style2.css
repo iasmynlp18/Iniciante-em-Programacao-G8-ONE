@@ -1,0 +1,6 @@
+/* 4) Sua tarefa é aplicar um "reset CSS" para remover esses estilos padrão. Comece criando um arquivo CSS e utilize o seletor universal * para definir a margin e o padding de todos os elementos para 0. Teste o efeito dessa mudança no layout do seu site. */
+
+* {
+    margin: 0;
+    padding: 0;
+}

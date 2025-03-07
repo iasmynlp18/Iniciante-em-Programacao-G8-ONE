@@ -1,0 +1,19 @@
+/* 1) Em seguida, estilize essa classe texto-destaque no arquivo CSS para alterar a cor do texto. */
+
+.texto-destaque {
+    color: rgb(184, 247, 255);
+}
+
+/* 3) No CSS, faça com que o texto desses parágrafos seja vermelho, para chamar a atenção do leitor. */
+.urgente {
+    color: red;
+}
+
+/*  2) Em seguida, personalize essa classe titulo-blog no arquivo CSS para mudar a cor do texto, para dar mais destaque. */
+.titulo-blog {
+    color: rgb(255, 211, 65);
+}
+
+body {
+    background-color: rgb(42, 42, 42);
+}

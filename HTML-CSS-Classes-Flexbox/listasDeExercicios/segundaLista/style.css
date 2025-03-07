@@ -1,0 +1,33 @@
+/* 1) Utilize a propriedade height e o valor 100vh no body para conseguir ocupar 100% da tela do usuário. 
+
+2) Utilize a propriedade box-sizing com o valor border-box no elemento body. Após aplicar esta configuração, inspecione o layout para garantir que nenhum elemento filho ultrapasse o limite do body e os seus próprios tamanhos definidos, mesmo ao adicionar bordas e paddings. 
+
+3) Imagine dois blocos de conteúdo sobre um fundo preto, garantindo que todo o conteúdo caiba em uma tela, sem scroll. Utilize as propriedades CSS adequadas para posicionar os blocos de conteúdo lado a lado e centralizá-los na página, mantendo o design conforme especificado no Figma. 
+
+4) Você está desenvolvendo um site e precisa posicionar textos e uma imagem lado a lado, adaptando-se a diferentes tamanhos de tela. Utilize Flexbox para alinhar um bloco de texto à esquerda e uma imagem à direita dentro de um <main>. 
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.imagem {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
