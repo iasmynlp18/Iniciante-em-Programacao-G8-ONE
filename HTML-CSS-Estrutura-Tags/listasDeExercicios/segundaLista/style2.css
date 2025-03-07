@@ -1,0 +1,190 @@
+/* 3) Você recebeu o desafio de dar vida a uma página web que atualmente tem apenas HTML. Sua tarefa é utilizar CSS para adicionar cores e formatos aos elementos da página. Foque em selecionar cores adequadas para os fundos, textos e bordas, além de aplicar estilos aos botões e cabeçalhos para torná-los visualmente atraentes. Você pode usar como referência essa tabela de nomes de cores.
+
+4) Sua tarefa é criar um arquivo CSS para estilizar uma página HTML a qual contém um cabeçalho, um parágrafo e um rodapé.
+
+5) Você deverá modificar a aparência dos links para que se destaquem do fundo e do texto. Utilize as propriedades CSS, como color para personalizá-los. */
+
+body {
+    background-color: rgb(45, 53, 64);
+    color: azure;
+    font-family: "Segoe UI", Arial, sans-serif;
+    height: 500px;
+    width: 1000px;
+    margin: 50px;
+}
+
+hr {
+    border-color: rgba(119, 119, 119, 0.814);
+    margin-left: 120px;
+    width: 830px;
+}
+
+h1 {
+    width: 700px;
+    font-weight: 400;
+    margin-left: 120px;
+    margin-top: -1rem;
+}
+
+h2 {
+    width: 400px;
+    font-weight: 400;
+    margin-left: 120px;
+}
+
+p {
+    width: 700px;
+    margin-top: 1rem;
+    margin-left: 120px;
+}
+
+button {
+    background-color: rgb(32, 176, 109);
+    border-width: 0cap;
+    color: rgb(255, 254, 254);
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 120px;
+}
+
+button:hover {
+    background-color: rgb(26, 147, 91);
+}
+
+
+.avancar {
+    margin-left: 626px;
+}
+
+.links-nomes {
+    text-decoration: none;
+    color: rgba(52, 52, 52, 0.942);
+}
+
+.links-nomes:hover {
+    color: rgba(14, 13, 13, 0.916);
+}
+
+#links-ids {
+    color: rgba(74, 74, 74, 0.812);
+    text-decoration: none;
+}
+
+#links-ids:hover {
+    color: rgb(67, 67, 67);
+}
+
+.link-cinza {
+    color: rgba(225, 225, 225, 0.975);
+    text-decoration: none;
+}
+
+.link-cinza:hover {
+    color: rgba(254, 252, 252, 0.995);
+}
+
+#link-id-cinza {
+    color: rgba(222, 222, 222, 0.92);
+    text-decoration: none;
+}
+
+#link-id-cinza:hover {
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    margin-right: 10px;
+    flex-flow : wrap;
+    height: 22rem;
+    width: 60rem;
+    align-items: center;
+    margin-top: -3.7rem;
+    margin-left: 120px;
+    font-size: 16.5px;
+    font-weight: bold;
+}
+
+.a {
+    height: 120px;
+    width: 270px;
+    margin-right: 10px;
+    background-color: #F0F8FF;
+    align-content: center;
+    text-align: center;
+}
+
+.b {
+    height: 120px;
+    width: 270px;
+    margin-right: 10px;
+    background-color:#FFB6C1;
+    align-content: center;
+    text-align: center;
+}
+
+.c {
+    height: 120px;
+    width: 270px;
+    margin-right: 10px;
+    background-color:#90EE90;
+    align-content: center;
+    text-align: center;
+}
+
+.d {
+    height: 120px;
+    width: 270px;
+    margin-right: 10px;
+    background-color: #ADD8E6;
+    align-content: center;
+    text-align: center;
+    margin-top: -7.3rem;
+}
+
+.e {
+    height: 120px;
+    width: 270px;
+    margin-right: 10px;
+    background-color:#F0E68C;
+    align-content: center;
+    text-align: center;
+    margin-top: -7.3rem;
+}
+
+.f {
+    height: 120px;
+    width: 270px;
+    margin-right: 10px;
+    background-color:#778899;
+    align-content: center;
+    text-align: center;
+    margin-top: -7.3rem;
+}
+
+footer {
+    margin-top: -3.5rem;
+    display: flex;
+    background-color: #1e2223;
+    height: 50px;
+    width: 830px;
+    margin-left: 120px;
+    align-items: center;
+}
+
+#texto-rodape {
+    margin-left: 190px;
+}
+
+#link-rodape {
+    text-decoration: none;
+    color: rgb(56, 185, 49);
+}
+
+#link-rodape:hover {
+    text-decoration: none;
+    color: rgb(19, 244, 8);
+}

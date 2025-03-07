@@ -1,0 +1,6 @@
+/* 2) No arquivo CSS, defina a cor de fundo do corpo da página (<body>) para indigo (indigo) e a cor do texto para branco (white). Salve as alterações e verifique no navegador se o fundo da página está na cor indigo (entre o violeta e o azul) e o texto branco. */
+
+body {
+    background-color: indigo;
+    color: white;
+}
